@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+
+body{
+    color: hsl(80, 27%, 16%);
+    font-family: "Figtree", sans-serif;
+}
+
+header{
+    width: 1100px; 
+    height: 96px;
+    background-color: hsl(80, 27%, 51%);
+    margin: auto;
+}
+
+main{
+    width: 1100px;
+    height: 792px;
+    background-color: hsl(80, 27%, 96%);
+    margin: auto;
+}
+
+    section{
+        width: 940px;
+        height: 216px;
+        margin: auto;
+        margin-top: 56px;
+        background-image: url(../imgs/bg-mate.jpg);
+    }
+
+
+footer{
+    width: 1100px; 
+    height: 144px;
+    background-color: hsl(80, 28%, 35%);
+    margin: auto;
+}
