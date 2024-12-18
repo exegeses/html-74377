@@ -1,0 +1,21 @@
+body{
+    font-family: 'Trebuchet MS';
+}
+
+a{
+    background-color: #42b29d;
+    color: #fff;
+    text-decoration: none;/* quitar subrayado */
+    /* width: 200px;
+    height: 90px;  no funciona */
+}
+
+article{
+    background-color: #ffc94a;
+    width: 280px;
+    height: 100px;
+}
+
+img{
+    width: 128px;
+}

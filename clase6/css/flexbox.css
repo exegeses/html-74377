@@ -1,0 +1,48 @@
+body{
+    font-family: 'Trebuchet MS';
+    font-size: 1.3em;
+    background-color: hsl(320, 62%, 15%);
+    color: hsl(320, 90%, 76%);
+}
+
+h2{
+    margin: 12px 0px;
+}
+section{
+    background-color: hsl(320, 62%, 8%);
+    width: 710px;
+    height: 328px;
+    /* margin: auto;
+    margin-bottom: 48px; */
+    margin: 0px auto 48px auto;
+}
+
+    article{
+        background-color: hsl(320, 50%, 30%);
+        height: 72px;
+        width: 128px;
+    }
+
+#horiz{
+    display: flex;
+    /* justify-content: start;/* Predeterminado: a la izquierda */
+    /* justify-content: end;  a la derecha */
+    /* justify-content: center; */
+    /* Distribuir el espacio sobrante */
+    justify-content: space-between;
+    justify-content: space-around;
+    justify-content: space-evenly;
+}    
+
+#vert{
+    display: flex;
+    /* align-items: start; /* Predeterminado: arriba */
+    /* align-items: end; /* debajo */
+    align-items: center;
+}
+
+#ambos{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

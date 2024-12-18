@@ -1,0 +1,15 @@
+body{
+    font-family: sans-serif;
+    background-color: hsl(320, 62%, 15%);
+    color: hsl(320, 90%, 76%);
+}
+
+section{
+    background-color: hsl(320, 62%, 8%);
+}
+    article{
+        background-color: hsl(320, 62%, 30%);
+        width: 340px;
+        height: 64px;
+        margin: 16px auto;
+    }
