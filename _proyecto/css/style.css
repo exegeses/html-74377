@@ -25,6 +25,9 @@ header{
 }
     header a{
         color: #fff;
+        padding: 12px;
+        font-size: 20px;
+        font-weight: 600;
     }
 
 main{
@@ -32,6 +35,20 @@ main{
     min-height: 600px;
     margin: auto;
 }
+
+    #hero{
+        height: 450px;
+        margin-top: 56px;
+        background-image: url(../imgs/hero.jpg);
+
+        font-size: 40px;
+        color: white;
+
+        display: flex;
+        align-items: center;
+    }
+
+
 footer{
     width: 1100px;
     height: 144px;
