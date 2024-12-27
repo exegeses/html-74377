@@ -48,10 +48,40 @@ main{
         align-items: center;
     }
 
+    #tipos-yerba{
+        height: 363px;
+        margin: 56px 0px;
+        background-color: hsl(76, 29%, 90%);
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    #tipos-yerba article{
+        width: 262px;
+        background-color: #fff;
+    }
+        #tipos-yerba h2{
+            margin: 16px;
+            font-size: 20px;
+            font-weight: 600;
+        }
+        #tipos-yerba p{
+            margin: 16px;
+        }
+
 
 footer{
     width: 1100px;
     height: 144px;
     margin: auto;
     background-color: hsl(80, 28%, 35%);
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
+    footer div a img{
+        margin: 12px;
+        filter: invert();
+    }
